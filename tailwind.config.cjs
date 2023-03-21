@@ -7,6 +7,9 @@ module.exports = {
 		colors: {
 			white: "#ffffff",
 			marine: "hsl(213, 96%, 18%)",
+			"light-marine": "#164A8A",
+			orange: "#FFAF7E",
+			pink: "#F9818E",
 			purple: "hsl(243, 100%, 62%)",
 			pastel: "hsl(228, 100%, 84%)",
 			blue: "hsl(206, 94%, 87%)",
@@ -18,6 +21,10 @@ module.exports = {
 		},
 		fontFamily: {
 			sans: ["Ubuntu", ...defaultTheme.fontFamily.sans],
+		},
+		backgroundImage: {
+			desktop: "url('public/assets/images/bg-sidebar-desktop.svg')",
+			mobile: "url('/public/assets/images/bg-sidebar-mobile.svg')",
 		},
 	},
 	plugins: [],

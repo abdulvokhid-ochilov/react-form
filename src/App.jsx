@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { FormPage } from "./pages/FormPage";
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="App">
-			<h1 className="text-3xl font-bold  underline">Hello world!</h1>
+		<div className="App bg-magnolia flex md:items-center h-screen">
+			<FormPage />
 		</div>
 	);
 }
